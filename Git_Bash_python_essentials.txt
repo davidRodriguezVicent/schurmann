@@ -1,0 +1,39 @@
+1. Navegación y manejo de archivos
+pwd: Muestra la ruta actual del directorio.
+ls: Lista archivos y directorios en el directorio actual.
+cd <directorio>: Cambia el directorio de trabajo.
+mkdir <nombre>: Crea un nuevo directorio.
+rm <archivo>: Elimina un archivo.
+rm -r <directorio>: Elimina un directorio y su contenido.
+
+2. Comandos Git básicos
+git init: Inicializa un nuevo repositorio de Git en el directorio actual.
+git clone <url>: Clona un repositorio remoto en tu máquina local.
+git add <archivo>: Agrega un archivo al área de preparación (staging area).
+git commit -m "<mensaje>": Realiza un commit con un mensaje descriptivo.
+git push: Sube los cambios al repositorio remoto.
+git pull: Trae los cambios del repositorio remoto al local.
+
+3. Entorno virtual de Python
+python -m venv <nombre_del_entorno>: Crea un entorno virtual para gestionar las dependencias de Python.
+source <nombre_del_entorno>/bin/activate: Activa el entorno virtual.
+deactivate: Desactiva el entorno virtual.
+pip install <paquete>: Instala un paquete de Python en el entorno virtual.
+pip freeze > requirements.txt: Genera un archivo requirements.txt con las dependencias actuales.
+
+4. Automatización de Tareas
+Puedes combinar scripts de Python y comandos de Unix en Git Bash para automatizar tareas repetitivas, como ejecutar tests (pytest), formatear código (black), y manejar versiones (bumpversion).
+
+5. Manejo de ramas y fusiones
+git branch <nombre_de_rama>: Crea una nueva rama.
+git checkout <nombre_de_rama>: Cambia a una rama específica.
+git merge <nombre_de_rama>: Fusiona la rama especificada con la rama actual.
+git branch -d <nombre_de_rama>: Elimina una rama que ya no se necesita.
+
+6. Resolución de conflictos
+Si hay conflictos al hacer un merge o pull, Git te indicará los archivos en conflicto. Puedes resolverlos manualmente y luego usar git add y git commit para finalizar el proceso.
+
+7. Revisión de cambios
+git status: Muestra el estado actual del repositorio, indicando archivos modificados, agregados, o en conflicto.
+git diff: Muestra las diferencias entre el código en el área de preparación y el último commit.
+git log: Muestra el historial de commits.
