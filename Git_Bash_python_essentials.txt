@@ -1,3 +1,6 @@
+EDteam
+
+
 1. Navegación y manejo de archivos
 pwd: Muestra la ruta actual del directorio.
 ls: Lista archivos y directorios en el directorio actual.
@@ -10,6 +13,9 @@ rm -r <directorio>: Elimina un directorio y su contenido.
 git init: Inicializa un nuevo repositorio de Git en el directorio actual.
 git clone <url>: Clona un repositorio remoto en tu máquina local.
 git add <archivo>: Agrega un archivo al área de preparación (staging area).
+
+    1- git add . (agrega todo) ' tener en cuenta "git status" para ver todo lo que no esta 
+
 git commit -m "<mensaje>": Realiza un commit con un mensaje descriptivo.
 git push: Sube los cambios al repositorio remoto.
 git pull: Trae los cambios del repositorio remoto al local.
@@ -37,3 +43,7 @@ Si hay conflictos al hacer un merge o pull, Git te indicará los archivos en con
 git status: Muestra el estado actual del repositorio, indicando archivos modificados, agregados, o en conflicto.
 git diff: Muestra las diferencias entre el código en el área de preparación y el último commit.
 git log: Muestra el historial de commits.
+
+
+8.Notas a tener en cuenta
+    Directorio (Local) cd<directorio> --> git add (staging area) --> git commit (repositorio local) --> git push (repositorio remoto)
